@@ -8,6 +8,8 @@ This repository contains the materials for the D-Lab Python Text Analysis
 workshop. We recommend attending Python Fundamentals, Python Data Wrangling, and
 Python Machine Learning Fundamentals prior to this workshop.
 
+Check D-Lab's [Learning Pathways](https://dlab-berkeley.github.io/dlab-workshops/python_path.html) to figure out which of our workshops to take!
+
 ## Workshop Goals
 
 This 3-part workshop will prepare participants to move forward with research that uses text
