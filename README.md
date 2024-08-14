@@ -8,44 +8,28 @@ This repository contains the materials for the D-Lab Python Text Analysis
 workshop. We recommend attending Python Fundamentals, Python Data Wrangling, and
 Python Machine Learning Fundamentals prior to this workshop.
 
+Check D-Lab's [Learning Pathways](https://dlab-berkeley.github.io/dlab-workshops/python_path.html) to figure out which of our workshops to take!
+
 ## Workshop Goals
 
-This workshop is part of a loosely-coupled 4-part text analysis workshop series
-that will prepare participants to move forward with research that uses text
+This 3-part workshop will prepare participants to move forward with research that uses text
 analysis, with a special focus on social science applications. We explore
 fundamental approaches to applying computational methods to text in Python. We
 cover some of the major packages used in natural language processing, including
 scikit-learn, NLTK, spaCy, and Gensim.
 
-The first two parts are taught as a joint series. Parts 3 and 4 can be attended
-"a la carte". However, we recommend attending Parts 1 and 2 prior to attending
-Parts 3 and 4. These parts are as follows:
-
-1. **Part 1: Preprocessing Text.** How do we standardize and clean text
+1. **Part 1: Preprocessing.** How do we standardize and clean text
    documents? Text data is noisy, and we often need to develop a pipeline in
-   order to standardize the data to better facilitate computational modeling. In
-   the first part of this workshop, we walk through possible steps in this
-   pipeline using tools from basic Python, NLTK, and spaCy in order to
-   preprocess and tokenize text data.
-2. **Part 2: Bag-of-words Representations.** How do we convert text into a
-   representation that we can operate on computationally? This requires
-   developing a *numerical representation* of the text. In this part of the
-   workshop, we study one of the foundational numerical representation of text
-   data: the bag-of-words model. This model relies heavily on word frequencies
-   in order to characterize text corpora. We use bag-of-words models and
-   variations (e.g., TF-IDF) to perform sentiment classification.
-3. **Part 3: Topic Modeling.** How do we identify topics within a corpus of
-   documents? In this part, we study unsupervised learning of text data.
-   Specifically, we use topic models such as Latent Dirichlet Allocation and
-   Non-negative Matrix Factorization to construct "topics" in text from the
-   statistical regularities in the data.
-4. **Part 4: Word Embeddings.** How can we use neural networks to create
-   meaningful representations of words? The bag-of-words is limited in its
-   ability to characterize text, because it does not utilize word context. In
-   this part, we study word embeddings, which were among the first attempts to
-   use neural networks to develop numerical representations of text that
-   incorporate context. We learn how to use the package Gensim to construct
-   and explore word embeddings of text.
+   order to standardize the data to better facilitate computational modeling. You will learn common and task-specific operations of preprocessing, 
+   becoming familiar with commonly used NLP packages and what they are capable of. You will also learn about tokenizers,
+   and how they have changed since the advent of Large Language Models.
+2. **Part 2: Bag-of-words.** In order to do any computational analysis on the text data, we need to devise approaches to convert text into a 
+   numeric representation. You will learn how to convert text data to a frequency matrix, and how TF-IDF complements the Bag-of-Words representation.
+   You will also learn about parameter settings of a vectorizer and apply sentiment classification to vectorized text data.
+3. **Part 3: Word Embeddings.** Word Embeddings underpin nearly all modern language models. In this workshop, you will learn the differences 
+   between a bag-of-words representation and word embeddings. You will be introduced to calculating cosine similarity between words, and learn how 
+   word embeddings can suffer from biases.
+
 
 ## Installation Instructions
 
@@ -173,6 +157,7 @@ expertise.
 
 # Contributors
 
+-  [Mingyu Yuan](https://github.com/mingyu-yuan)
 -  [Pratik Sachdeva](https://github.com/pssachdeva)
 -  [Ben Gebre-Medhin](http://gebre-medhin.com)
 -  [Laura Nelson](http://www.lauraknelson.com)
@@ -182,6 +167,6 @@ expertise.
 
 These materials have evolved over a number of years. They were first developed
 by Laura Nelson and Teddy Roland, with contributions and revisions made by Ben
-Gebre-Medhin, Geoff Bacon, and Caroline Le Pennec-Caldichoury. They were heavily
-revamped by Pratik Sachdeva in 2022.
+Gebre-Medhin, Geoff Bacon, and Caroline Le Pennec-Caldichoury and Pratik Sachdeva. 
+They were revamped by Mingyu Yuan in the summer of 2024.
 
