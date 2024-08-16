@@ -30,6 +30,8 @@ scikit-learn, NLTK, spaCy, and Gensim.
    between a bag-of-words representation and word embeddings. You will be introduced to calculating cosine similarity between words, and learn how 
    word embeddings can suffer from biases.
 
+The materials for this workshop series are designed to build on each other. Part 2 assumes familiarity with the content from Part 1, and Part 3 similarly requires understanding of both preceding parts.
+
 
 ## Installation Instructions
 
